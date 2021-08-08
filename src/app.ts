@@ -3,7 +3,6 @@ import { json } from 'body-parser';
 
 import todoRoutes from './routes/todos';
 
-//setting express
 const app = express();
 
 app.use(json());

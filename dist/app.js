@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = require("body-parser");
 const todos_1 = __importDefault(require("./routes/todos"));
-//setting express
 const app = express_1.default();
 app.use(body_parser_1.json());
 app.use('/todos', todos_1.default);
